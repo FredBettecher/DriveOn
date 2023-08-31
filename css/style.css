@@ -2,27 +2,31 @@ body {
   display: flex;
   flex-direction: column;
   width: 100dvw;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   padding: 2rem 5.2rem 0 5.2rem;
-  width: auto;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 28rem;
-  margin-right: 13rem;
+  margin-right: 9rem;
   margin-left: 3.5rem;
 }
 
 .menu {
   color: #82809C;
-  font-size: 20px;
+  margin-right: 4rem;
+  transition: 200ms ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .user-auth {
@@ -36,7 +40,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
-  font-size: medium;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   color: #5712A6;
   border: none;
   background-color: inherit;
@@ -56,8 +61,9 @@ nav {
   border: 1px solid #2678FA;
   border-radius: 5px;
   text-align: center;
-  font-size: medium;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   color: #2678FA;
   padding: 0.5rem 1.5rem;
   margin-left: 2rem;
@@ -67,3 +73,4 @@ nav {
     transform: scale(0.95);
   }
 }
+
