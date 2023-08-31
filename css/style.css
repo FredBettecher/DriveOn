@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100dvw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5.2rem 0 5.2rem;
+  width: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 28rem;
+  margin-right: 13rem;
+  margin-left: 3.5rem;
+}
+
+.menu {
+  color: #82809C;
+  font-size: 20px;
+}
+
+.user-auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: medium;
+  color: #5712A6;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(.95);
+  }
+}
+
+.login-icon {
+  margin-right: 0.625rem;
+}
+
+.signup-button {
+  background-color: inherit;
+  border: 1px solid #2678FA;
+  border-radius: 5px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  color: #2678FA;
+  padding: 0.5rem 1.5rem;
+  margin-left: 2rem;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
