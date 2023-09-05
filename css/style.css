@@ -79,7 +79,7 @@ nav {
 }
 
 .home {
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-left: 5.2rem;
   display: flex;
   justify-content: space-between;
@@ -206,9 +206,79 @@ h1 {
   font-weight: bold;
   padding: 0;
   margin-top: 3rem;
+  transition: 50ms ease-in-out;
 
   &:active {
     transform: scale(.95);
   }
 }
 
+.commitment {
+  display: flex;
+  position: relative;
+  margin: 10rem 0 4rem 5.2rem;
+}
+
+.commitment-info img {
+  width: 9rem;
+  height: 0.5625rem;
+}
+
+.commitment-info h2 {
+  color: #5712A6;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.commitment-info p {
+  color: #82809C;
+  line-height: 1.3;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.commitment-info strong {
+  position: relative;
+  color: #5712A6;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: -0.625rem;
+  display: inline-block;
+  max-width: 100%;
+  width: auto;
+}
+
+.commitment-info button {
+  border: transparent;
+  color: #2678FA;
+  font-size: 1.5rem;
+  background-color: transparent;
+  padding-left: 0;
+  cursor: pointer;
+  transition: 50ms ease-in-out;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.img-background-commitment {
+  display: inline-block;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: -22rem;
+  right: 0;
+}
