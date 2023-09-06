@@ -30,6 +30,7 @@ getStarted.forEach(item => {
   const description = document.createElement('p');
 
   img.src = item.image;
+  img.draggable = false;
   title.innerHTML = item.title;
   description.innerHTML = item.description;
 
