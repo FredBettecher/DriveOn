@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  background-image: url('/public/images/img-fundo-4-teste-programador.png');
+  background-image: url('images/img-fundo-4-teste-programador.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
