@@ -31,7 +31,9 @@
   cursor: pointer;
 
   &:hover {
-    opacity: 0.9;
+    .underline {
+      background-position: 0 0;
+    }
   }
 }
 
@@ -40,8 +42,14 @@
   left: 0;
   bottom: -0.625rem;
   display: inline-block;
-  max-width: 100%;
-  width: auto;
+  width: 100%;
+  height: 0.4rem;
+  border-left: 1.2rem solid #7D21E8;
+  background-image: linear-gradient(to left, #26E0FA, #26E0FA 50%, #7D21E8 50%, #7D21E8);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  transition: background-position 0.5s ease-in-out;
 }
 
 .commitment-info button {

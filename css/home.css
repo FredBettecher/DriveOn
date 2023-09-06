@@ -28,7 +28,7 @@ h1 {
   padding: 0.5rem 1.7rem;
   cursor: pointer;
   transition: transform 50ms ease-in-out;
-  animation: colors 5s ease-in-out infinite;
+  animation: home-colors 5s ease-in-out infinite;
 
   &:active {
     transform: scale(.95);
@@ -41,7 +41,7 @@ h1 {
   height: auto;
 }
 
-@keyframes colors{
+@keyframes home-colors {
   0%{
     background-position: 0 50%;
   }
