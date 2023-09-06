@@ -28,7 +28,7 @@ h1 {
   padding: 0.5rem 1.7rem;
   cursor: pointer;
   transition: transform 50ms ease-in-out;
-  animation: home-colors 5s ease-in-out infinite;
+  animation: home-colors 3s ease-in-out infinite;
 
   &:active {
     transform: scale(.95);
@@ -39,6 +39,28 @@ h1 {
   max-height: 40rem;
   width: auto;
   height: auto;
+}
+
+/* animations */
+
+.home.animate .home-info {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.home.animate .home-image {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.home.animate-section .home-info {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.home.animate-section .home-image {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 @keyframes home-colors {

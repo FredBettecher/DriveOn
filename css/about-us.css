@@ -43,3 +43,15 @@
     transform: scale(.95);
   }
 }
+
+/* animations */
+
+.about-us.animate .about-us-right{
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.about-us.animate-section .about-us-right{
+  opacity: 1;
+  transform: translateX(0);
+}

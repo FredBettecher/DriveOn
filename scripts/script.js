@@ -1,3 +1,5 @@
+let sections = document.querySelectorAll('section');
+
 const getStarted = [
   {
   image: 'public/images/solucao-1-teste-programador.png',
@@ -23,6 +25,18 @@ const getStarted = [
 
 const getStartedPage = document.getElementById('get-started-cards');
 
+window.onscroll = () => {
+  sections.forEach(section => {
+    let top = window.scrollY;
+    let offset = section.offsetTop - 250;
+    let height = section.offsetHeight;
+
+    if(top >= offset && top < offset + height) {
+      section.classList.add('animate-section');
+    }
+  });
+}
+  
 getStarted.forEach(item => {
   const div = document.createElement('div')
   const img = document.createElement('img');
@@ -34,6 +48,6 @@ getStarted.forEach(item => {
   title.innerHTML = item.title;
   description.innerHTML = item.description;
 
-  div.append(img, title, description)
+  div.append(img, title, description);
   getStartedPage.append(div);
 });

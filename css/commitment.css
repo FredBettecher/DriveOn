@@ -75,3 +75,15 @@
   top: -22rem;
   right: 0;
 }
+
+/* animations */
+
+.commitment.animate .commitment-info {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.commitment.animate-section .commitment-info {
+  opacity: 1;
+  transform: translateX(0);
+}

@@ -5,7 +5,12 @@
 body {
   display: flex;
   flex-direction: column;
-  width: 100dvw;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+}
+
+/* animations */
+
+.animate {
+  transition: 1s;
 }

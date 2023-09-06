@@ -72,3 +72,15 @@
   margin-right: 0.625rem;
   margin-left: -1.5rem;
 }
+
+/* animations */
+
+.download.animate .download-info {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.download.animate-section .download-info{
+  opacity: 1;
+  transform: translateX(0);
+}

@@ -18,10 +18,11 @@
   <link rel="stylesheet" href="css/download.css">
   <link rel="stylesheet" href="css/register.css">
   <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>DriveOn</title>
 </head>
+
 <body>
+
   <header>
     <img src="public/images/logo-teste-programador.png" alt="DriveOn-logo">
     <nav>
@@ -38,9 +39,10 @@
       Sign Up
     </button>
   </header>
+
   <main>
-    <section class="home">
-      <div>
+    <section class="home animate">
+      <div class="home-info animate">
         <h1>Start Your <br> Workday <br> Comfortably</h1>
         <p>
           Get in, sit back and experience the comfort of car <br> that takes you directly to your destination. <br>
@@ -48,22 +50,24 @@
         </p>
       <button>Discover</button>
       </div>
-      <div class="home-image">
+      <div class="home-image animate">
         <img src="public/images/img-banner-teste-programador.png" alt="img-banner" draggable="false"/>
       </div>
     </section>
-    <section class="get-started">
-      <div class="division">
+
+    <section class="get-started animate">
+      <div class="division animate">
         <img src="public/images/linha-reta-teste-programador.png.jpg" alt="division-line" draggable="false"/>
         <h2>How to get started?</h2>
       </div>
       <div id="get-started-cards"></div>
     </section>
-    <section class="about-us">
+
+    <section class="about-us animate">
       <div>
         <img src="./public/images/img-fundo-teste-programador.png" alt="img-background" class="about-us-background-image" draggable="false">
       </div>
-      <div>
+      <div class="about-us-right animate">
         <img src="public/images/linha-reta-teste-programador.png.jpg" alt="division-line" class="about-us-division-line" draggable="false"/>
         <p>
           DriveOn is a mobile carpool platform that effortlessly <br> brings commuters together in one car. <br> Travelling home and work will neve be the same again. <br> Our mission is to stop traffic jams and CO2 pollution <br> as a result of inefficient car commuting.
@@ -72,8 +76,9 @@
         <button>Learn more ››</button>
       </div>
     </section>
-    <section class="commitment">
-      <div class="commitment-info">
+
+    <section class="commitment animate">
+      <div class="commitment-info animate">
         <img src="public/images/linha-reta-teste-programador.png.jpg" alt="division-line" draggable="false"/>
         <h2>Our commitment <br> to your safety</h2>
         <p>
@@ -88,8 +93,9 @@
       </div>
       <img src="./public/images/img-fundo-2-teste-programador.png" alt="img-background-2" class="img-background-commitment" draggable="false">
     </section>
-    <section class="download">
-      <div class="download-info">
+
+    <section class="download animate">
+      <div class="download-info animate">
         <div class="download-line"></div>
         <h2>Download the DriveOn application <br> to get more benefits and experience</h2>
         <button>
@@ -108,7 +114,8 @@
         </button>
       </div>
     </section>
-    <section class="register">
+
+    <section class="register animate">
       <div class="register-content">
         <div>
           <h2>Register to be <br> a driver partner</h2>
@@ -129,13 +136,16 @@
       </div>
     </section>
   </main>
+
   <footer>
     <div class="footer-outer">
+
       <div class="footer-inner-left">
        <h3>Drive<img src="./public/images/location-icon.svg" alt="location-icon" draggable="false">n</h3>
        <p><ion-icon name="help-circle-outline"></ion-icon>Resolution Center</p>
        <p><ion-icon name="chatbox" class="chatbox"></ion-icon>English</p>
       </div>
+
       <div class="footer-inner-right">
         <div>
           <h3>About Us</h3>
@@ -158,7 +168,9 @@
           <p>Advanced Technologies Group</p>
         </div>
       </div>
-      </div>
+
+    </div>
+
     <div class="footer-bottom">
       <div>&copy; 2019 DriveOn Technologies Inc.</div>
       <div>
@@ -170,12 +182,10 @@
       </div>
     </div>
   </footer>
+
   <script src="./scripts/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+
 </body>
 </html>
